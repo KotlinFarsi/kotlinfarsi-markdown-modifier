@@ -45,6 +45,16 @@ permalink: $permalink
         //replacing all div rtl s
         content = content.replace("<div dir=\"rtl\">", "<div dir=\"rtl\" markdown=\"1\">")
 
+        //replacing default code highlighter
+//        content = content.replace("```kotlin","<pre class=\"kotlin-code\" data-target-platform=\"jvm\" theme=\"idea\">\n")
+//        content = content.replace("```","</pre>")
+//        content = content.replace("</pre>java","```java")
+//        content = content.replace("fun main(args: Array<String>)","fun main()")
+//      result was failure, the tests were broken
+
+
         content = frontmatter + content
+
+
     }
 }
