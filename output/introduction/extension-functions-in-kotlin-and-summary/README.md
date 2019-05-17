@@ -68,7 +68,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-<img src="./result-1.PNG" />
+<img src="/assets/img/introduction/extension-functions-in-kotlin-and-summary/result-1.PNG" />
 
 <div dir="rtl" markdown="1">
 

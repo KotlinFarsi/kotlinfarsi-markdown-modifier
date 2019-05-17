@@ -107,7 +107,7 @@ fun main(args: Array<String>) {
 
 خب ما درواقع توی کلاس CustomerJava یک تابع داشتیم به نام toString که بهمون یک چیز شسته رفته تحویل بده، همین انتظار رو از کاتلین هم داریم، یعنی گفتم اوکی کاتلین خلاصه تر میکنه ولی باید همون ویژگی های جاوا رو هم داشته باشه دیگه، خب اگه همین کد رو اجرا کنیم خواهیم دید
 
-<img src="./result-1.PNG" />
+<img src="/assets/img/introduction/kotlin-data-classes/result-1.PNG" />
 
 و این هم مسلما خروجی مد نظرمون نیست. خب برای این که همچین قابلیتی رو به کلاسمون بدیم تنها کاری که باید بکنیم اینه که از کلیدواژه data استفاده کنیم
 
@@ -127,7 +127,7 @@ fun main(args: Array<String>) {
 
 خب حالا چی ؟ حالا اگه همین کد رو اجرا کنیم خواهیم داشت
 
-<img src="./result-2.PNG" />
+<img src="/assets/img/introduction/kotlin-data-classes/result-2.PNG" />
 
 که همون چیزی هست که ما مدنظرمون داشتیم.البته این data تنها به این معنی نیست که فقط toString رو بهمون بده،درواقع hashCode و equals رو هم برامون درست میکنه.
 
@@ -156,7 +156,7 @@ fun main(args: Array<String>) {
 
 توجه کنین که کلید واژه data رو اینجا نداریم.خب حالا کد رو اجرا میکنیم.
 
-<img src="./result-3.PNG" />
+<img src="/assets/img/introduction/kotlin-data-classes/result-3.PNG" />
 
 متوجه شدیم که این دو شبیه هم نیستن.خب حالا بیاین و data رو برگردونیم
 
@@ -182,7 +182,7 @@ fun main(args: Array<String>) {
 
 و حالا اجراش کنیم
 
-<img src="./result-4.PNG" />
+<img src="/assets/img/introduction/kotlin-data-classes/result-4.PNG" />
 
 همینطور که میبینین هردو به مانند هم شدن.
 

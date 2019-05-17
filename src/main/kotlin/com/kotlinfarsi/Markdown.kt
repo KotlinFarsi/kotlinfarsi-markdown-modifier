@@ -9,6 +9,7 @@ data class Markdown(val file: File) {
     lateinit var title: String
     lateinit var category: String
     lateinit var permalink: String
+    val imgLines = arrayListOf<String>()
 
     val frontmatter: String by lazy {
         """---
@@ -51,6 +52,14 @@ permalink: $permalink
 //        content = content.replace("</pre>java","```java")
 //        content = content.replace("fun main(args: Array<String>)","fun main()")
 //      result was failure, the tests were broken
+        content = content.replace("<img src=\".","<img src=\"/assets/img/introduction/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}")
+
+        content.lines().filter {
+            it.contains("<img")
+        }.forEach {
+            imgLines.add(it)
+        }
+
 
 
         content = frontmatter + content

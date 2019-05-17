@@ -45,7 +45,7 @@ println(result)
 
 اگر این رو اجرا کنیم برنامه خروجی زیر رو میده
 
-<img src="./result-1.PNG" />
+<img src="/assets/img/introduction/conditional-execution-with-if-and-when-in-kotlin/result-1.PNG" />
 
 چرا kotlin.Unit ؟ درواقع Unit د رکاتلین به مانند void میمونه. ولی من گفتم که کاتلین این اجازه رو میده که بتونیم از if به صورت یک عبارت شرطی استفاده کنیم، خب باید توجه کنیم که اگر if بدین صورت استفاده بشه، کاتلین اخرین خط رو به عنوان مقدار برمیگردونه، یعنی اگر بخواهم به هدف دلخواهمون برسیم باید کد رو به صورت زیر تغییر بدیم:
 
@@ -114,7 +114,7 @@ when(result){
 مثلا عبارت بالا زو مد نظر بگیرین، اومدم نوشتم اگه result یک String بود عبارت اول رو چاپ کنه و اگر برابر بود با “Value” عبارت دوم رو. خب به نظرتون اگه این کد رو اجرا کنم خروجی چی میشه ؟ 
 
 
-<img src="./result-2.PNG" />
+<img src="/assets/img/introduction/conditional-execution-with-if-and-when-in-kotlin/result-2.PNG" />
 
 همینطور که میبینین عبارت “Excellent” چاپ شد. در واقع وقتی در داخل when به یکی از جواب ها برسیم کامپایلر دیگه خط های پایین رو نگاه نمیکنه و سریع break میکنه.
 

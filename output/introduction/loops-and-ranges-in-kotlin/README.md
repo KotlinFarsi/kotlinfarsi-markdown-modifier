@@ -15,7 +15,7 @@ permalink: /tutorials/introduction/loops-and-ranges-in-kotlin
 یک فایل دیگه به نام `LoopsAndRanges` درست میکنیم و `main` رو داخلش مینویسیم
 
 
-<img src="./view-of-class.PNG" />
+<img src="/assets/img/introduction/loops-and-ranges-in-kotlin/view-of-class.PNG" />
 
 اگه دقت کنیم داخل این فایل هم `main` داریم و داخل فایل قبلی هم `main` داریم. ایا همچین چیزی ممکن است؟ درواقع کاتلین همیچین اجازه رو میده که به ازای هر فایل یک `main` داشته باشیم.
 

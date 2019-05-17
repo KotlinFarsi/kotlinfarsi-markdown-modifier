@@ -17,6 +17,9 @@ fun main() {
         }.map {
             Markdown(it)
         }.forEach {
+            val imgLines = it.imgLines
+            println(imgLines)
+
             val outputPath = it.file.path.replace("\\build\\resources\\main" , "\\output")
             File(outputPath).writeText(it.content)
             println(outputPath)

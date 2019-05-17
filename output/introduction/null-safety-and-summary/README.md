@@ -136,7 +136,7 @@ fun main(args: Array<String>) {
 
 البته اگه کد بالا رو اجرا کنیم جواب زیر رو خواهیم داشت
 
-<img src="./result-1.PNG" />
+<img src="/assets/img/introduction/null-safety-and-summary/result-1.PNG" />
 
 چیزی که اینجا میبینین اینه که null چاپ شد، خب پس چرا null چاپ شد؟
 

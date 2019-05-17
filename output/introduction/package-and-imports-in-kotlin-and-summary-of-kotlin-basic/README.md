@@ -14,7 +14,7 @@ permalink: /tutorials/introduction/package-and-imports-in-kotlin-and-summary-of-
 
 اگه روی ویندوز هستید و دکمه Ctrl رو نگه دارید و روی تابع کلیک کنین به سمت تعریف اون تابع هدایت میشین. و اگر به ابتدای اون فایل برین متوجه میشین که این تابع داخل بسته ای به نام kotlin.ioهستش. پکیج ها به مانند جاوا و دیگر زبون ها میتونن import بشن ولی در واقع نیازی به import کردن توابعی مثل println() و به مانند این ها نیست، در واقع اونها به طور ضمنی import شدن ولی من میتونم پکیج های دیگه رو از جاهای دیگه ی برنامم import کنم. به عنوان مثال بیاین و داخل همون پکیج basic یک پکیج دیگه به نام utils باز کنیم. و داخل اون هم یک فایل به نام SampleUtils باز کنیم.
 
-<img src="./someutils.PNG" />
+<img src="/assets/img/introduction/package-and-imports-in-kotlin-and-summary-of-kotlin-basic/someutils.PNG" />
 
 حالا بیایم و یک تابع به نام SomeUtility() در اون باز کنیم که یک متغییر name از جنس String میگیره.
 
