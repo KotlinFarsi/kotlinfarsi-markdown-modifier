@@ -2,7 +2,8 @@
 layout: tutorial
 title: "Object ها در کاتلین و خلاصه بخش پنج"
 category: introduction
-permalink: /tutorials/introduction/objects-in-kotlin-and-summary
+permalink: /tutorials/introduction/objects-in-kotlin-and-summary/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/objects-in-kotlin-and-summary/README.md
 ---
 
 

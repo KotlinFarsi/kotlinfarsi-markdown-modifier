@@ -2,7 +2,8 @@
 layout: tutorial
 title: "آشنایی با JVM"
 category: introduction
-permalink: /tutorials/introduction/introduction-to-jvm
+permalink: /tutorials/introduction/introduction-to-jvm/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/introduction-to-jvm/README.md
 ---
 
 

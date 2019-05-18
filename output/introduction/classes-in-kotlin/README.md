@@ -2,7 +2,8 @@
 layout: tutorial
 title: "کلاس ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/classes-in-kotlin
+permalink: /tutorials/introduction/classes-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/classes-in-kotlin/README.md
 ---
 
 
@@ -164,7 +165,9 @@ fun main(args: Array<String>) {
 
 حالا اگه این کد رو اجرا کنیم نتیجه زیر رو میبینیم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/classes-in-kotlin/result-1.PNG" />
+</p>
 
 خب اگه دقت کنین ما اومدین و تابع `toUpperCase()` روی `name` پیاده کردیم ولی مقدار جدید رو توی `name` نریختیم. برای این که این مشکل رو حل کنیم میتونیم این کار رو انجام بدیم
 
@@ -252,7 +255,9 @@ fun main(args: Array<String>) {
 
 اگه این کد رو اجرا کنیم نتیجه زیر رو خواهیم داشت
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/classes-in-kotlin/result-2.PNG" />
+</p>
 
 خب مسلما اگه socialSecurityNumber رو تغییر بدیم و سعی کنیم اونو چاپ کنیم
 
@@ -272,7 +277,9 @@ fun main(args: Array<String>) {
 
 نتیجه زیر رو خواهیم داشت
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/classes-in-kotlin/result-3.PNG" />
+</p>
 
 متوجه میشیم که اون مشکل مربوط به Exception رفع شد ولی مقدارش چاپ نشد.خب البته اگه دقت کنین ما اومدیم و محدودیت گذاشتیم براش ولی نگفتین این مقدار رو بگیره. برای این که بتونیم مقدار رو بهش بدیم از کلیدواژه ای به نام field استفاده میکنیم.
 

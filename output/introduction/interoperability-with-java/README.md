@@ -2,7 +2,8 @@
 layout: tutorial
 title: "همکاری با جاوا"
 category: introduction
-permalink: /tutorials/introduction/interoperability-with-java
+permalink: /tutorials/introduction/interoperability-with-java/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/interoperability-with-java/README.md
 ---
 
 

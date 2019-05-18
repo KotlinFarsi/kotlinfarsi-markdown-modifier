@@ -2,7 +2,8 @@
 layout: tutorial
 title: "کار کردن با exception ها"
 category: introduction
-permalink: /tutorials/introduction/working-with-exceptions
+permalink: /tutorials/introduction/working-with-exceptions/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/working-with-exceptions/README.md
 ---
 
 
@@ -73,7 +74,9 @@ fun main(args: Array<String>) {
 
 و همینطور که انتظار داریم اگه این برنامه رو اجرا کنیم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/working-with-exceptions/result-1.PNG" />
+</p>
 
 میبینیم همون Exception مورد انتظارمون رو throw کرد.
 
@@ -131,7 +134,9 @@ fun main(args: Array<String>) {
 Finally در واقع همیشه انجام میشه، حتی اگر Exception هم بخوره. پس در واقع شما در اون قسمت مطمئنین حتی اگر هر چیز بدی هم اتفاق بیفته بازم این کد اجرا خواهد شد، پس میتونیم بسته شدن بافر رو توی اون قسمت قرار بدیم
 وحالا اگه برنامه رو اجرا کنیم میبینیم که
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/working-with-exceptions/result-2.PNG" />
+</p>
 
 ارور indexOutOfBoundException رو گرفتیم، چون همونطور که خودمون میدونستیم داریم 40 تا از یک آرایه 30 خونه ای میخونیم. ولی اگه دقت کنید، به هر حال Closing اجرا شده!
 

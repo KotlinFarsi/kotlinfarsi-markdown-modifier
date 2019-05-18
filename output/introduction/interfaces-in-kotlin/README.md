@@ -2,7 +2,8 @@
 layout: tutorial
 title: "کلاس های interface در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/interfaces-in-kotlin
+permalink: /tutorials/introduction/interfaces-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/interfaces-in-kotlin/README.md
 ---
 
 
@@ -217,7 +218,9 @@ fun main(args: Array<String>) {
 
 دو اینترفیس داریم که دو 2 تابع هم نام رو داخل خودشون implement کردن و یک کلاس داریم که هردو اینترفیس رو implement میکنه و دوباره همون تابع با همون اسم رو override میکنه. حالا اگه داخل main اون تابع رو صدا بزنیم نتیجه چی میشه ؟
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/interfaces-in-kotlin/result-1.PNG" />
+</p>
 
 خب مسلما چون داخل کلاس Class1And2 دوباره متد funA رو پیاده سازی کردیم، همین یکی اجرا خواهد شد. اگه یادتون باشه ما میتونستیم از کلیدواژه super استفاده کنیم، ولی خب حالا اگه بیایم و اینجوری بنویسیم
 

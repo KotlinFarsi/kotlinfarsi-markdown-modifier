@@ -2,7 +2,8 @@
 layout: tutorial
 title: "به دوره خوش آمدید"
 category: introduction
-permalink: /tutorials/introduction/welcome-to-the-course
+permalink: /tutorials/introduction/welcome-to-the-course/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/welcome-to-the-course/README.md
 ---
 
 

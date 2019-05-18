@@ -2,7 +2,8 @@
 layout: tutorial
 title: "توابع الحاقی کاتلین از جاوا"
 category: introduction
-permalink: /tutorials/introduction/extension-functions-from-java
+permalink: /tutorials/introduction/extension-functions-from-java/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/extension-functions-from-java/README.md
 ---
 
 

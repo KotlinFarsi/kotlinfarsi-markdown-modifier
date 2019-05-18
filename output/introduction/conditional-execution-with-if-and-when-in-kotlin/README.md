@@ -2,7 +2,8 @@
 layout: tutorial
 title: "عبارت های شرطی در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/conditional-execution-with-if-and-when-in-kotlin
+permalink: /tutorials/introduction/conditional-execution-with-if-and-when-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/conditional-execution-with-if-and-when-in-kotlin/README.md
 ---
 
 
@@ -45,7 +46,9 @@ println(result)
 
 اگر این رو اجرا کنیم برنامه خروجی زیر رو میده
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/conditional-execution-with-if-and-when-in-kotlin/result-1.PNG" />
+</p>
 
 چرا kotlin.Unit ؟ درواقع Unit د رکاتلین به مانند void میمونه. ولی من گفتم که کاتلین این اجازه رو میده که بتونیم از if به صورت یک عبارت شرطی استفاده کنیم، خب باید توجه کنیم که اگر if بدین صورت استفاده بشه، کاتلین اخرین خط رو به عنوان مقدار برمیگردونه، یعنی اگر بخواهم به هدف دلخواهمون برسیم باید کد رو به صورت زیر تغییر بدیم:
 
@@ -114,7 +117,9 @@ when(result){
 مثلا عبارت بالا زو مد نظر بگیرین، اومدم نوشتم اگه result یک String بود عبارت اول رو چاپ کنه و اگر برابر بود با “Value” عبارت دوم رو. خب به نظرتون اگه این کد رو اجرا کنم خروجی چی میشه ؟ 
 
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/conditional-execution-with-if-and-when-in-kotlin/result-2.PNG" />
+</p>
 
 همینطور که میبینین عبارت “Excellent” چاپ شد. در واقع وقتی در داخل when به یکی از جواب ها برسیم کامپایلر دیگه خط های پایین رو نگاه نمیکنه و سریع break میکنه.
 

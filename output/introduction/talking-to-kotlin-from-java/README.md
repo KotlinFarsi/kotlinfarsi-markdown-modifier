@@ -2,7 +2,8 @@
 layout: tutorial
 title: "صحبت کردن با کاتلین از جاوا"
 category: introduction
-permalink: /tutorials/introduction/talking-to-kotlin-from-java
+permalink: /tutorials/introduction/talking-to-kotlin-from-java/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/talking-to-kotlin-from-java/README.md
 ---
 
 
@@ -36,7 +37,9 @@ data class CustomerKotlin(var id: Int, var name: String, var email: String)
 
 کاتلین متوجه این موضوع میشه و زمانی که داریم یک متغییر از این کلاس میسازیم اینو در نظر میگیره و بهمون میگه این متغییر نمیتونه مقدار null بگیره! درواقع ما میتونیم مقدار null وارد کنیم ولی خود کامپایلر بهمون اخطار میده که نباید مقدار null وارد بشه
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/talking-to-kotlin-from-java/warning-1.PNG" />
+</p>
 
 حالا فرض کنین میخوایم به یک متغیر کلاس کاتلین در داخل کلاس جاوا دسترسی داشته باشیمو چیزی که توی جاوا تعریف نشده اینه که دسترسی مستقیم به متغیره! اینجا راه حل خیلی سادس. شما میتونین از متد های set و get استفاده کنین.
 
@@ -67,7 +70,9 @@ data class CustomerKotlin(var id: Int, var name: String, var email: String){
 
 حالا بیاین برگردیم و از این خصیصه توی کلاس جاوامون استفاده کنیم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/talking-to-kotlin-from-java/warning-2.PNG" />
+</p>
 
 خب همینطور که میبینین متوجه میشیم که ما نمیتونیم به این متیغیر به مانند یک field دسترسی پیدا کنیم ولی اگه بخوایم به مانند یک field به او دسترسی پیدا کنیم باید چه کاری انجام بدیم؟ در واقع اینجا کاتلین برامون Annotation های قرار داده تا بتونیم این اعمال هارو انجام بدیم.
 
@@ -103,7 +108,9 @@ fun changeStatus(status: String = "OK"){
 
 و حالا اگه بخوایم ازشون استفاده کنیم به ارور میخوریم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/talking-to-kotlin-from-java/error-1.PNG" />
+</p>
 
 خب به مانند مشکل قبلی کاتلین برامون Annotation هایی گذاشته که بتونیم این مشکل هارو برطرف کنیم.کافیه اینطور بنویسیم:
 
@@ -119,7 +126,9 @@ fun changeStatus(status: String = "OK"){
 
 درواقع این Annotation میاد برامون Overload هارو فراهم میکنه.
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/talking-to-kotlin-from-java/error-1.PNG" />
+</p>
 
     مطالب این قسمت کامل نشده است.
 </div>

@@ -2,7 +2,8 @@
 layout: tutorial
 title: "null safety و خلاصه بخش هفت"
 category: introduction
-permalink: /tutorials/introduction/null-safety-and-summary
+permalink: /tutorials/introduction/null-safety-and-summary/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/null-safety-and-summary/README.md
 ---
 
 
@@ -136,7 +137,9 @@ fun main(args: Array<String>) {
 
 البته اگه کد بالا رو اجرا کنیم جواب زیر رو خواهیم داشت
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/null-safety-and-summary/result-1.PNG" />
+</p>
 
 چیزی که اینجا میبینین اینه که null چاپ شد، خب پس چرا null چاپ شد؟
 

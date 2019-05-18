@@ -2,7 +2,8 @@
 layout: tutorial
 title: "عبارت های الحاقی در کاتلین و خلاصه بخش نهم"
 category: introduction
-permalink: /tutorials/introduction/extension-functions-in-kotlin-and-summary
+permalink: /tutorials/introduction/extension-functions-in-kotlin-and-summary/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/extension-functions-in-kotlin-and-summary/README.md
 ---
 
 
@@ -68,7 +69,9 @@ fun main(args: Array<String>) {
 }
 ```
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/extension-functions-in-kotlin-and-summary/result-1.PNG" />
+</p>
 
 <div dir="rtl" markdown="1">
 

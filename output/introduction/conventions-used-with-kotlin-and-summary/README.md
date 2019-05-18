@@ -2,7 +2,8 @@
 layout: tutorial
 title: "خلاصه بخش دوم"
 category: introduction
-permalink: /tutorials/introduction/conventions-used-with-kotlin-and-summary
+permalink: /tutorials/introduction/conventions-used-with-kotlin-and-summary/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/conventions-used-with-kotlin-and-summary/README.md
 ---
 
 

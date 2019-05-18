@@ -2,7 +2,8 @@
 layout: tutorial
 title: "constant ها"
 category: introduction
-permalink: /tutorials/introduction/declaring-constants
+permalink: /tutorials/introduction/declaring-constants/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/declaring-constants/README.md
 ---
 
 

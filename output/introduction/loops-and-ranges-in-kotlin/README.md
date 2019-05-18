@@ -2,7 +2,8 @@
 layout: tutorial
 title: "حلقه ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/loops-and-ranges-in-kotlin
+permalink: /tutorials/introduction/loops-and-ranges-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/loops-and-ranges-in-kotlin/README.md
 ---
 
 
@@ -15,7 +16,9 @@ permalink: /tutorials/introduction/loops-and-ranges-in-kotlin
 یک فایل دیگه به نام `LoopsAndRanges` درست میکنیم و `main` رو داخلش مینویسیم
 
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/loops-and-ranges-in-kotlin/view-of-class.PNG" />
+</p>
 
 اگه دقت کنیم داخل این فایل هم `main` داریم و داخل فایل قبلی هم `main` داریم. ایا همچین چیزی ممکن است؟ درواقع کاتلین همیچین اجازه رو میده که به ازای هر فایل یک `main` داشته باشیم.
 

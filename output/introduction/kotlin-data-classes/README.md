@@ -2,7 +2,8 @@
 layout: tutorial
 title: "کلاس های دیتا در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/kotlin-data-classes
+permalink: /tutorials/introduction/kotlin-data-classes/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/kotlin-data-classes/README.md
 ---
 
 
@@ -107,7 +108,9 @@ fun main(args: Array<String>) {
 
 خب ما درواقع توی کلاس CustomerJava یک تابع داشتیم به نام toString که بهمون یک چیز شسته رفته تحویل بده، همین انتظار رو از کاتلین هم داریم، یعنی گفتم اوکی کاتلین خلاصه تر میکنه ولی باید همون ویژگی های جاوا رو هم داشته باشه دیگه، خب اگه همین کد رو اجرا کنیم خواهیم دید
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/kotlin-data-classes/result-1.PNG" />
+</p>
 
 و این هم مسلما خروجی مد نظرمون نیست. خب برای این که همچین قابلیتی رو به کلاسمون بدیم تنها کاری که باید بکنیم اینه که از کلیدواژه data استفاده کنیم
 
@@ -127,7 +130,9 @@ fun main(args: Array<String>) {
 
 خب حالا چی ؟ حالا اگه همین کد رو اجرا کنیم خواهیم داشت
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/kotlin-data-classes/result-2.PNG" />
+</p>
 
 که همون چیزی هست که ما مدنظرمون داشتیم.البته این data تنها به این معنی نیست که فقط toString رو بهمون بده،درواقع hashCode و equals رو هم برامون درست میکنه.
 
@@ -156,7 +161,9 @@ fun main(args: Array<String>) {
 
 توجه کنین که کلید واژه data رو اینجا نداریم.خب حالا کد رو اجرا میکنیم.
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/kotlin-data-classes/result-3.PNG" />
+</p>
 
 متوجه شدیم که این دو شبیه هم نیستن.خب حالا بیاین و data رو برگردونیم
 
@@ -182,7 +189,9 @@ fun main(args: Array<String>) {
 
 و حالا اجراش کنیم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/kotlin-data-classes/result-4.PNG" />
+</p>
 
 همینطور که میبینین هردو به مانند هم شدن.
 

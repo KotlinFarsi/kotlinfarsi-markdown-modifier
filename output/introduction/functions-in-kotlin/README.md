@@ -2,7 +2,8 @@
 layout: tutorial
 title: "توابع در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/functions-in-kotlin
+permalink: /tutorials/introduction/functions-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/functions-in-kotlin/README.md
 ---
 
 

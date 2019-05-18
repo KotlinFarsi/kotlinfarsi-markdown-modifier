@@ -2,7 +2,8 @@
 layout: tutorial
 title: " visibility modifier ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/visibility-modifiers-in-kotlin
+permalink: /tutorials/introduction/visibility-modifiers-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/visibility-modifiers-in-kotlin/README.md
 ---
 
 

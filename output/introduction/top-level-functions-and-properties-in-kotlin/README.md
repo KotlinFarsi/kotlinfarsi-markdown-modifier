@@ -2,7 +2,8 @@
 layout: tutorial
 title: "توابع و خصیصه های درجه اول"
 category: introduction
-permalink: /tutorials/introduction/top-level-functions-and-properties-in-kotlin
+permalink: /tutorials/introduction/top-level-functions-and-properties-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/top-level-functions-and-properties-in-kotlin/README.md
 ---
 
 
@@ -24,11 +25,15 @@ fun prefix(prefix: String, value : String): String = "$prefix-$value"
 
 و این تابع رو داخلش مینویسیم. در واقع کامپایلر وقتی این فایل رو کامپایل میکنه یک فایلی به نام TopLevelFunctionsKt.class میسازه
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/top-level-functions-and-properties-in-kotlin/output-1.PNG" />
+</p>
 
 یعنی درواقع کلاس TopLevelFunctions از فایل ToplevelFunctions جدا میشه! ما اگه کلاسی به همین نام در این فایل ایجاد کنیم و کامپایلش کنیم متوجه میشیم که فایل .class مربوط به اون کلاس رو جدا از فایل اصلی ساخته!
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/top-level-functions-and-properties-in-kotlin/output-2.PNG" />
+</p>
 
 و داخل کد هم همین قضیه برقراره، اگه بخوایم به فایل دسترسی پیدا کنیم باید از TopLevelFunctionKt استفاده کنیم و اگر به کلاس از TopLevelFunction.
 

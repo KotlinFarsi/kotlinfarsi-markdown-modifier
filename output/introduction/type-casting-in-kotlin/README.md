@@ -2,7 +2,8 @@
 layout: tutorial
 title: "type casting در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/type-casting-in-kotlin
+permalink: /tutorials/introduction/type-casting-in-kotlin/
+editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/type-casting-in-kotlin/README.md
 ---
 
 
@@ -156,7 +157,9 @@ fun main(args: Array<String>) {
 
 البته خب قبل اجرا هیچ مشکلی نداشتیم و هیچ اروری هم نبود. ولی خب وقتی کد رو اجرا میکنیم به ارور میخوریم
 
+<p style="width: calc(100% + 60px);">
 <img src="/assets/img/introduction/type-casting-in-kotlin/result-1.PNG" />
+</p>
 
 و اونم به این دلیله که اگه یادتون باشه گفتیم هیچ گونه کستینگ به صورت لفظی در کاتلین نداریم و اگه بخوایم یک متغیر رو کست کنیم باید از توابعش استفاده کنیم.
 
