@@ -2,7 +2,7 @@
 layout: tutorial
 title: "Anko و توابع الحاقی"
 category: android
-permalink: /tutorials/android/anko-and-extension-functions/
+permalink: /tutorials/android/anko-and-extension-functions
 editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/anko-and-extension-functions/README.md
 ---
 
@@ -11,7 +11,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="Anko-چیست؟" >
+<div dir="rtl" markdown="1" id="Anko-چیست" >
 
 ## Anko چیست؟
 

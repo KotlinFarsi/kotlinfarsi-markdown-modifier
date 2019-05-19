@@ -2,7 +2,7 @@
 layout: tutorial
 title: "کلاس های دیتا"
 category: android
-permalink: /tutorials/android/data-classes/
+permalink: /tutorials/android/data-classes
 editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/data-classes/README.md
 ---
 

@@ -72,7 +72,7 @@ editlink: $editLink
     }
 
     private fun gettingPermaLink() {
-        permalink = "/tutorials/$category/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}/"
+        permalink = "/tutorials/$category/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}${if(category == Category.android) "" else "/"}"
     }
 
     private fun gettingEditLink() {
@@ -112,6 +112,8 @@ editlink: $editLink
             if (it.indexOf("## ") == 0){
                 id = it.substring(3)
                 id = id.replace(" ","-")
+                val regex = Regex("[?!؟]")
+                id = regex.replace(id,"")
                 newLine = "<div dir=\"rtl\" markdown=\"1\" id=\"$id\" >\r\n\r\n$it\r\n\n</div>"
             } else
                 newLine = it

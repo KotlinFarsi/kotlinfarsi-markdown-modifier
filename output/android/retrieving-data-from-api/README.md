@@ -2,7 +2,7 @@
 layout: tutorial
 title: "بدست آوردن دیتا با استفاده از API"
 category: android
-permalink: /tutorials/android/retrieving-data-from-api/
+permalink: /tutorials/android/retrieving-data-from-api
 editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/retrieving-data-from-api/README.md
 ---
 
