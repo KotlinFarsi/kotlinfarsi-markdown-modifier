@@ -34,6 +34,8 @@ editlink: $editLink
 
         gettingTitle()
 
+        fixingTagIds()
+
         gettingPermaLink()
 
         gettingEditLink()
@@ -45,6 +47,7 @@ editlink: $editLink
 //        replacingHighliterWithDemoCode()
 
         fixingImagesTags()
+
 
         content.lines().filter {
             it.contains("<img")
@@ -98,5 +101,23 @@ editlink: $editLink
     private fun fixingImagesTags() {
         content = content.replace("<img src=\".","<p style=\"width: calc(100% + 60px);\">\r\n<img src=\"/assets/img/introduction/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}")
         content = content.replace("/>","/>\r\n</p>")
+    }
+
+    private fun fixingTagIds() {
+        val newLines = arrayListOf<String>()
+
+        content.lines().forEach {
+            var newLine = ""
+            var id = ""
+            if (it.indexOf("## ") == 0){
+                id = it.substring(3)
+                newLine = "<div dir=\"rtl\" markdown=\"1\" id=\"$id\" >\r\n\r\n$it\r\n\n</div>"
+            } else
+                newLine = it
+
+            newLines.add(newLine)
+        }
+
+        content = newLines.joinToString(prefix = "",postfix = "",separator = "\r\n")
     }
 }

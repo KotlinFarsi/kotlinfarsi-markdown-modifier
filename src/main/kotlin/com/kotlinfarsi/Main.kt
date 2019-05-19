@@ -8,12 +8,14 @@ fun main() {
 
     val start = System.currentTimeMillis()
 
-    val introductionRootFolderPath = Main::class.java.getResource("/introduction").file
+    val category = Category.android
+
+    val introductionRootFolderPath = Main::class.java.getResource("/${category.name}").file
     val markdowns = File(introductionRootFolderPath)
         .walk(FileWalkDirection.TOP_DOWN)
         .filter {
             it.path.contains("Readme.md", true) and
-                    !(it.path.toString().contains("introduction\\Readme.md", true))
+                    !(it.path.toString().contains("${category.name}\\Readme.md", true))
         }.map {
             Markdown(it)
         }.forEach {
