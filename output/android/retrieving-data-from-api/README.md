@@ -11,7 +11,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="انجام درخواست" >
+<div dir="rtl" markdown="1" id="انجام_درخواست" >
 
 ## انجام درخواست
 
@@ -51,7 +51,7 @@ class Request(val url: String) {
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="انجام درخواست خارج از نخ اصلی" >
+<div dir="rtl" markdown="1" id="انجام_درخواست_خارج_از_نخ_اصلی" >
 
 ## انجام درخواست خارج از نخ اصلی
 

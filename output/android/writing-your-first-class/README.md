@@ -13,7 +13,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 خب ما تا الان فایل `MainActivity.kt` مون رو درست کردیم.ولی اگه یادتون باشه قرار بود یک اپ پیشبینی آب و هوا درست کنیم و باید توی صفحمون از پیشبینی آب و هوای هفته بعد گفته بشه پس نیاز به یک سری تغییرات داریم.
 
-<div dir="rtl" markdown="1" id="ساختن layout" >
+<div dir="rtl" markdown="1" id="ساختن_layout" >
 
 ## ساختن layout
 
@@ -67,7 +67,7 @@ forecastList.layoutManager = LinearLayoutManager(this)
 
 _**نمونه سازی:** اگه دقت کنین اینجا دیگه از کلیدواژه `new` استفاده نشد! در واقع برای ساختن یک شی دیگه نیازی به استفاده از `new` نیست تنها کافیه از نام کلاس و سازنده اش استفاده بشه._
 
-<div dir="rtl" markdown="1" id="آداپتور Recycler" >
+<div dir="rtl" markdown="1" id="آداپتور_Recycler" >
 
 ## آداپتور Recycler
 

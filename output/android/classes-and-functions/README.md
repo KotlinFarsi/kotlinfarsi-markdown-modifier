@@ -14,7 +14,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 کلاس ها در کاتلین ساختار خیلی ساده ای دارن و البته یکسری تفاوت¬ها بین جاوا و این زبون وجود داره که بهتره قبل از این که به برنامه نویسی اندروید ادامه بدیم کمی راجع بهشون بدونیم. در ضمن شما میتونین از سایت try.kotlinlang.org استفاده کنین و مثال هارو امتحان کنین، بدون این که پروژه ای بسازین
 
 
-<div dir="rtl" markdown="1" id="روش تعریف کلاس" >
+<div dir="rtl" markdown="1" id="روش_تعریف_کلاس" >
 
 ## روش تعریف کلاس
 
@@ -57,7 +57,7 @@ class Person(name: String, surname: String) {
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="ارث بری" >
+<div dir="rtl" markdown="1" id="ارث_بری" >
 
 ## ارث بری
 
@@ -125,7 +125,7 @@ fun add(x: Int, y: Int) : Int = x + y
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="کانستراکتور و پارامترها" >
+<div dir="rtl" markdown="1" id="کانستراکتور_و_پارامترها" >
 
 ## کانستراکتور و پارامترها
 

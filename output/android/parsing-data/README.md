@@ -11,7 +11,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="تبدیل JSON به کلاس های دیتا" >
+<div dir="rtl" markdown="1" id="تبدیل_JSON_به_کلاس_های_دیتا" >
 
 ## تبدیل JSON به کلاس های دیتا
 
@@ -83,7 +83,7 @@ compile "com.google.code.gson:gson:2.4"
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="شکل دادن به لایه ی `domain`" >
+<div dir="rtl" markdown="1" id="شکل_دادن_به_لایه_ی_`domain`" >
 
 ## شکل دادن به لایه ی `domain`
 
@@ -197,7 +197,7 @@ class RequestForecastCommand(val zipCode: String) :
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="نمایش دیتا بر روی UI" >
+<div dir="rtl" markdown="1" id="نمایش_دیتا_بر_روی_UI" >
 
 ## نمایش دیتا بر روی UI
 
