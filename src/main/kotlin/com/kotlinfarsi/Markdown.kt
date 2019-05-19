@@ -111,7 +111,7 @@ editlink: $editLink
             var id = ""
             if (it.indexOf("## ") == 0){
                 id = it.substring(3)
-                id = id.replace(" ","_")
+                id = id.replace(" ","-")
                 newLine = "<div dir=\"rtl\" markdown=\"1\" id=\"$id\" >\r\n\r\n$it\r\n\n</div>"
             } else
                 newLine = it

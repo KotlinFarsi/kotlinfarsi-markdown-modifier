@@ -15,7 +15,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 اگر بخوایم کامپایلر رو آگاه کنیم که یک اوپراتور رو میخوایم overload کنیم، باید اون تابع رو با اصلاح کننده  `operator` مشخص کنیم.
 
-<div dir="rtl" markdown="1" id="جدول_اوپراتور_ها" >
+<div dir="rtl" markdown="1" id="جدول-اوپراتور-ها" >
 
 ## جدول اوپراتور ها
 
@@ -95,7 +95,7 @@ operator fun equals(other: Any?): Boolean
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="یک_مثال" >
+<div dir="rtl" markdown="1" id="یک-مثال" >
 
 ## یک مثال
 
@@ -149,7 +149,7 @@ override fun getItemCount(): Int = weekForecast.size()
 ```
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="عملگرها_در_توابع_الحاقی" >
+<div dir="rtl" markdown="1" id="عملگرها-در-توابع-الحاقی" >
 
 ## عملگرها در توابع الحاقی
 

@@ -13,7 +13,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 توی کاتلین همه چیز شی هه! اینجا مثل جاوا تایپ های اولیه نداریم و این خیلی خوبه، چون در اینصورت ما یک روش درست حسابی برای برخورد با تایپ های مختلف داریم و اینجوری نیست که بگیم خب الان اینه باید اینکار رو بکنیم و اگر اون بود فلان کار رو . همیشه و همیشه یک روش برخورد با تایپ ها داریم.
 
-<div dir="rtl" markdown="1" id="تایپ_های_پایه_ای_" >
+<div dir="rtl" markdown="1" id="تایپ-های-پایه-ای-" >
 
 ## تایپ های پایه ای 
 
@@ -92,7 +92,7 @@ for (c in s) {
 ```
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="متغیر_ها" >
+<div dir="rtl" markdown="1" id="متغیر-ها" >
 
 ## متغیر ها
 
@@ -106,7 +106,7 @@ for (c in s) {
 
     ناقص و نیاز به تکمیل دارد
 
-<div dir="rtl" markdown="1" id="خصیصه_ها" >
+<div dir="rtl" markdown="1" id="خصیصه-ها" >
 
 ## خصیصه ها
 

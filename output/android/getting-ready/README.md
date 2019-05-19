@@ -15,7 +15,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="اندروید_استودیو" >
+<div dir="rtl" markdown="1" id="اندروید-استودیو" >
 
 ## اندروید استودیو
 
@@ -35,7 +35,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="نصب_پلاگین_کاتلین" >
+<div dir="rtl" markdown="1" id="نصب-پلاگین-کاتلین" >
 
 ## نصب پلاگین کاتلین
 

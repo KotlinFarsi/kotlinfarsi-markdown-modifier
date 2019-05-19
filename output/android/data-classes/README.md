@@ -25,7 +25,7 @@ data class Forecast(val date: Date, val temperature: Float, val details: String)
 
 <div dir="rtl" markdown="1">
 
-<div dir="rtl" markdown="1" id="توابع_اضافی" >
+<div dir="rtl" markdown="1" id="توابع-اضافی" >
 
 ## توابع اضافی
 
@@ -37,7 +37,7 @@ data class Forecast(val date: Date, val temperature: Float, val details: String)
 *	`copy()` : میتونیم با استفاده از این یک شی رو به علاوه با خصیصه هاش کپی کنیم
 *	تعدادی دیگه از توابع
 
-<div dir="rtl" markdown="1" id="کپی_کردن_یک_کلاس_دیتا" >
+<div dir="rtl" markdown="1" id="کپی-کردن-یک-کلاس-دیتا" >
 
 ## کپی کردن یک کلاس دیتا
 
@@ -56,7 +56,7 @@ val f2 = f1.copy(temperature = 30f)
 
 الان ما با استفاده از این تابع دیتای شی اول رو کپی کردیم و تنها مقدار `temperature` رو عوض کردیم، بدون این که مقدار بقیه حالت ها و شی اول عوض شه !
 
-<div dir="rtl" markdown="1" id="مپ_کردن_یک_شی_به_متغیرها" >
+<div dir="rtl" markdown="1" id="مپ-کردن-یک-شی-به-متغیرها" >
 
 ## مپ کردن یک شی به متغیرها
 

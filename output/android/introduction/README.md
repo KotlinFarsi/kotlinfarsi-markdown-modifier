@@ -17,7 +17,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 ترجمه نشده
 
 
-<div dir="rtl" markdown="1" id="کاتلین_چیست؟" >
+<div dir="rtl" markdown="1" id="کاتلین-چیست؟" >
 
 ## کاتلین چیست؟
 
@@ -46,7 +46,7 @@ editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master
 
 
 
-<div dir="rtl" markdown="1" id="با_کاتلین_به_چه_میرسیم؟" >
+<div dir="rtl" markdown="1" id="با-کاتلین-به-چه-میرسیم؟" >
 
 ## با کاتلین به چه میرسیم؟
 
