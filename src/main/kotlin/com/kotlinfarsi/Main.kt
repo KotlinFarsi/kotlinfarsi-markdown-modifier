@@ -8,7 +8,7 @@ fun main() {
 
     val start = System.currentTimeMillis()
 
-    val category = Category.android
+    val category = Category.js
 
     val introductionRootFolderPath = Main::class.java.getResource("/${category.name}").file
     val markdowns = File(introductionRootFolderPath)

@@ -99,7 +99,7 @@ editlink: $editLink
     }
 
     private fun fixingImagesTags() {
-        content = content.replace("<img src=\".","<p style=\"width: calc(100% + 60px);\">\r\n<img src=\"/assets/img/introduction/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}")
+        content = content.replace("<img src=\".","<p style=\"width: calc(100% + 60px);\">\r\n<img src=\"/assets/img/${category.name}/${file.parent.substring(file.parent.lastIndexOf("\\") + 1)}")
         content = content.replace("/>","/>\r\n</p>")
     }
 
