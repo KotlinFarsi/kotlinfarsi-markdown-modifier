@@ -68,7 +68,11 @@ fun main(args: Array<String>) {
 
 <div dir="rtl" markdown="1">
 
+<div dir="rtl" markdown="1" id="خلاصه-بخش-3" >
+
 ## خلاصه بخش 3
+
+</div>
 
 *	تا اینجا یاد گرفتیم که چگونه یک متغیر رو تغییرپذیر یا تغییر ناپذیر کنیم
 
