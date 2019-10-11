@@ -29,8 +29,9 @@ fun main() {
                 val outputFile = File(outputDir)
 
                 if (shouldNormalize(inputFile)) {
-                    val normalizedOutput = Markdown(inputFile)
-                    outputFile.writeText(normalizedOutput.content)
+                    val content: String = File(inputFile.path).inputStream().bufferedReader().use { it.readText() }
+                    val newFile = File(outputFile.parent + File.separator + outputFile.parentFile.name +"."+ outputFile.extension)
+                    newFile.writeText(content)
                     println("Normalized: $outputDir")
                 } else {
                     if (inputFile.name != INPUT_FOLDER) // for skipping an fucking exception :/
