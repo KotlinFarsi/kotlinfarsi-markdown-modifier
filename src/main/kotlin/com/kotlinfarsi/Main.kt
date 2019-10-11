@@ -22,17 +22,23 @@ fun main() {
             .forEach { inputFile ->
                 val outputDir = convertToOutput(inputFile.path)
                 val outputFile = File(outputDir)
-                if (inputFile.path.contains("_tutorials") and "md".equals(inputFile.extension, true)) {
-                    println(inputFile.path)
+
+                if (shouldNormalize(inputFile)) {
+                    val normalizedOutput = Markdown(inputFile)
+                    outputFile.writeText(normalizedOutput.content)
+                    println("Normalized: $outputDir")
                 } else
                     inputFile.copyTo(outputFile, true)
             }
     }
-    println("All files were normalized in $measureTime ms")
+    println("Files were normalized in $measureTime ms")
 }
 
 private fun convertToOutput(inputDir: String) =
     inputDir.replace("input", "output")
+
+private fun shouldNormalize(file: File) =
+    file.path.contains("_tutorials") and "md".equals(file.extension, true)
 
 
 
