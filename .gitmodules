@@ -1,0 +1,3 @@
+[submodule "OriginalWebsite"]
+	path = src/main/resources/website
+	url = https://github.com/KotlinFarsi/KotlinFarsi-WebSite.git

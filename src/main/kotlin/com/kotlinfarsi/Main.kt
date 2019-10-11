@@ -10,7 +10,7 @@ fun main() {
 
     val category = Category.introduction
 
-    val introductionRootFolderPath = Main::class.java.getResource("/${category.name}").file
+    val introductionRootFolderPath = Main::class.java.getResource("/website/_tutorials/${category.name}").file
     val markdowns = File(introductionRootFolderPath)
         .walk(FileWalkDirection.TOP_DOWN)
         .filter {
