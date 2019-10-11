@@ -30,9 +30,11 @@ fun main() {
                 if (shouldNormalize(inputFile)) {
                     val editlinkRegex = Regex("editlink: .*\\n")
                     val permaRegex = Regex("permalink: .*\\n")
+                    val unitChapterRegex = Regex("\\n---")
                     val content: String = File(inputFile.path).inputStream().bufferedReader().use { it.readText() }
                         .replace(editlinkRegex,"")
                         .replace(permaRegex,"")
+                        .replace(unitChapterRegex,"\nunit: \nchapter: \n---")
                     val newFile = File(outputFile.parent + File.separator + outputFile.parentFile.name +"."+ outputFile.extension)
 
                     newFile.writeText(content)
