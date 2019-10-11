@@ -1,33 +1,39 @@
 package com.kotlinfarsi
 
 import java.io.File
+import kotlin.system.measureTimeMillis
 
 class Main
 
 fun main() {
+    val mainInputDir = Main::class.java.getResource("/website").file
+    val finalOutputDir = convertToOutput(mainInputDir)
+    println("Main Input: $mainInputDir")
+    println("Final Output: $finalOutputDir")
 
-    val start = System.currentTimeMillis()
+    val measureTime = measureTimeMillis {
+        // remove old output
+        File(finalOutputDir).takeIf { it.exists() }
+            ?.run { listFiles()?.forEach { it.deleteRecursively() } }
 
-    val category = Category.introduction
-
-    val introductionRootFolderPath = Main::class.java.getResource("/website/_tutorials/${category.name}").file
-    val markdowns = File(introductionRootFolderPath)
-        .walk(FileWalkDirection.TOP_DOWN)
-        .filter {
-            it.path.contains("Readme.md", true) and
-                    !(it.path.toString().contains("${category.name}\\Readme.md", true))
-        }.map {
-            Markdown(it)
-        }.forEach {
-            val outputPath = it.file.path.replace("\\build\\resources\\main" , "\\output")
-            File(outputPath).writeText(it.content)
-            println(outputPath)
-        }
-
-    val end = System.currentTimeMillis()
-
-    println(end - start)
-
+        // generate new output
+        File(mainInputDir)
+            .walk(FileWalkDirection.TOP_DOWN)
+            .forEach { inputFile ->
+                println(inputFile.path)
+                val outputDir = convertToOutput(inputFile.path)
+                val outputFile = File(outputDir)
+                if (inputFile.path.contains("_tutorials") and "md".equals(inputFile.extension, true)) {
+                    println(inputFile.path)
+                } else
+                    inputFile.copyTo(outputFile, true)
+            }
+    }
+    println("All files were normalized in $measureTime ms")
 }
+
+private fun convertToOutput(inputDir: String) =
+    inputDir.replace("build${File.separator}resources${File.separator}main${File.separator}website", "output")
+
 
 
