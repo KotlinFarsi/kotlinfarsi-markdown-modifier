@@ -1,3 +1,6 @@
-[submodule "input"]
-	path = input
+[submodule "KotlinFarsi_in"]
+	path = KotlinFarsi_in
+	url = https://github.com/KotlinFarsi/KotlinFarsi-WebSite.git
+[submodule "KotlinFarsi_out"]
+	path = KotlinFarsi_out
 	url = https://github.com/KotlinFarsi/KotlinFarsi-WebSite.git
