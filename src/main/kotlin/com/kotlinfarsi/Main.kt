@@ -1,7 +1,6 @@
 package com.kotlinfarsi
 
 import java.io.File
-import java.nio.file.Paths
 import kotlin.system.measureTimeMillis
 
 class Main
@@ -29,8 +28,13 @@ fun main() {
                 val outputFile = File(outputDir)
 
                 if (shouldNormalize(inputFile)) {
+                    val editlinkRegex = Regex("editlink: .*\\n")
+                    val permaRegex = Regex("permalink: .*\\n")
                     val content: String = File(inputFile.path).inputStream().bufferedReader().use { it.readText() }
+                        .replace(editlinkRegex,"")
+                        .replace(permaRegex,"")
                     val newFile = File(outputFile.parent + File.separator + outputFile.parentFile.name +"."+ outputFile.extension)
+
                     newFile.writeText(content)
                     println("Normalized: $outputDir")
                 } else {
