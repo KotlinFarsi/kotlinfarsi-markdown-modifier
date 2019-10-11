@@ -13,8 +13,7 @@ fun main() {
 
     val measureTime = measureTimeMillis {
         // remove old output
-        File(finalOutputDir).takeIf { it.exists() }
-            ?.run { listFiles()?.forEach { it.deleteRecursively() } }
+        File(finalOutputDir).takeIf { it.exists() }?.deleteRecursively()
 
         // generate new output
         File(mainInputDir)
