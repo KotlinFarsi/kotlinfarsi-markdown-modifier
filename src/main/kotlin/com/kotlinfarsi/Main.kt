@@ -6,7 +6,7 @@ import kotlin.system.measureTimeMillis
 class Main
 
 fun main() {
-    val mainInputDir = Main::class.java.getResource("/website").file
+    val mainInputDir = System.getProperty("user.dir") + "/input"
     val finalOutputDir = convertToOutput(mainInputDir)
     println("Main Input: $mainInputDir")
     println("Final Output: $finalOutputDir")
@@ -20,7 +20,6 @@ fun main() {
         File(mainInputDir)
             .walk(FileWalkDirection.TOP_DOWN)
             .forEach { inputFile ->
-                println(inputFile.path)
                 val outputDir = convertToOutput(inputFile.path)
                 val outputFile = File(outputDir)
                 if (inputFile.path.contains("_tutorials") and "md".equals(inputFile.extension, true)) {
@@ -33,7 +32,7 @@ fun main() {
 }
 
 private fun convertToOutput(inputDir: String) =
-    inputDir.replace("build${File.separator}resources${File.separator}main${File.separator}website", "output")
+    inputDir.replace("input", "output")
 
 
 
