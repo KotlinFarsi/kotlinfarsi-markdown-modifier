@@ -28,16 +28,20 @@ fun main() {
                 val outputFile = File(outputDir)
 
                 if (shouldNormalize(inputFile)) {
-                    val editlinkRegex = Regex("editlink: .*\\n")
-                    val permaRegex = Regex("permalink: .*\\n")
-                    val unitChapterRegex = Regex("\\n---")
+                    val endOfAttributesRegex = Regex("\\n---")
                     val content: String = File(inputFile.path).inputStream().bufferedReader().use { it.readText() }
-                        .replace(editlinkRegex,"")
-                        .replace(permaRegex,"")
-                        .replace(unitChapterRegex,"\nunit: \nchapter: \n---")
-                    val newFile = File(outputFile.parent + File.separator + outputFile.parentFile.name +"."+ outputFile.extension)
+                    val subHeaders = StringBuilder()
+                    subHeaders.appendln("\nsub_headers: ")
+                    content.lines().forEach {
+                        if (it.startsWith("## ")) {
+                            val head = it.trimStart('#', ' ')
+                            subHeaders.appendln("  - $head")
+                        }
+                    }
+                    subHeaders.append("---")
+                    val editedContent = content.replace(endOfAttributesRegex, subHeaders.toString())
 
-                    newFile.writeText(content)
+                    outputFile.writeText(editedContent)
                     println("Normalized: $outputDir")
                 } else {
                     if (inputFile.name != INPUT_FOLDER) // for skipping an fucking exception :/
@@ -49,7 +53,7 @@ fun main() {
 }
 
 private fun shouldNormalize(file: File) =
-    file.path.contains("_tutorials") and "md".equals(file.extension, true)
+    file.path.contains("_tutorials/android/") and "md".equals(file.extension, true)
 
 // inspired by [File.deleteRecursively()]
 fun File.deleteRecursivelyIf(clause: (file: File) -> Boolean): Boolean =
